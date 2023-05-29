@@ -1,0 +1,197 @@
+body{
+    margin-left: 8%;
+    margin-right: 8%;
+    background-color: lightgrey;
+    margin-top: 0px;
+}
+#header > h1{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 235%;
+    line-height: 135%;
+    font-weight: 500;
+    padding: 20px;
+}
+#header > #language{
+    float: right;
+}
+.menuelement > span{
+    padding: 10px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.menuelement > span > a{
+    color: white;
+    text-decoration: none;
+}
+.menuelement > span:hover{
+    background-color: darkblue;
+    transition: 0.3s;
+}
+#main > .maindiv > a{
+    color: black;
+    text-decoration: none;
+}
+#main > .maindiv > a{
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: blue;
+    padding: 20px;
+    margin: 30px;
+    width: 700px;
+    min-width: 200px;
+    min-height: 100px;
+    justify-content: space-between;
+}
+#main > .maindiv > a:hover{
+    border-width: 1px;
+    color: black;
+    text-decoration: none;
+}
+#main > .maindiv > a > .divtext{
+    width: 350px;
+}
+.maindiv > a > div > .logo{
+    width: 140px;
+    height: 120px;
+    padding: 20px;
+    padding-right: 40px;
+    float: left;
+}
+#header{
+    background-color:white;
+    padding: 1px;
+    text-align: center;
+    background: linear-gradient(to right, blue, white, white, white, blue) fixed;
+}
+#menu{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#main{
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.maindiv > a > .arrow{
+    float: right;
+    width: 140px;
+    height: 140px;
+    padding: 20px;
+}
+#footer{
+    background-color: lightblue;
+    padding: 20px;
+    height: auto;
+    border-style: 1px;
+    border-color: black;
+    margin-bottom: 0px;
+}
+#main > .mainLog{
+    max-width: 400px;
+    min-width: 250px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#main > .mainLog > .mainLogin{
+    padding: 30px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: lightgray;
+}
+#main > .mainLog > p > a{
+    float: right;
+    font-size: 14px;
+    text-decoration: none;
+}
+#forsalemain{
+    background-color: white;
+}
+
+#forsalemain > #pageteller > p{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    margin: 0px;
+    padding: 10px;
+}
+#forsalemain > #pageteller > p > a{
+    text-decoration: none;
+    color: black;
+    margin-left: 100px;
+}
+#forsalemain > #pageteller > p > a:hover{
+    text-decoration: underline;
+}
+#forsalemain > h1{
+    color: blue;
+    margin-left: 100px;
+}
+#forsalemain > #alldropdowns{
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+#forsalemain > #alldropdowns > .dropdown{
+    padding: 20px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: lightblue;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    height: 50px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: skyblue;
+    border-width: 3px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: blue;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
